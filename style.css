@@ -35,6 +35,7 @@ body {
     color: #e5e7eb;
     list-style: none;
     justify-content: flex-end;
+    flex: 2;
 }
 
 a {
