@@ -38,6 +38,44 @@ body {
     flex: 2;
 }
 
+.main {
+    display: flex;
+    max-width: 980px;
+    margin: auto;
+}
+
+.main > div {
+    flex: 1;
+}
+
+#main-button {
+    border-style: none;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.header-left {
+    margin: 100px auto;
+}
+
+.header-left > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.header-left > h2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight:lighter;
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -118,7 +156,7 @@ a {
 }
 
 .button {
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     background-color: #3882f6;
     border-color: white;
